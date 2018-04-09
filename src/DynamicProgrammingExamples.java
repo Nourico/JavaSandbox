@@ -1,6 +1,7 @@
 
 public class DynamicProgrammingExamples {
 
+//	Given a paper of size A x B. Task is to cut the paper into squares of any size. Find the minimum number of squares that can be cut from the paper.
 	static int dp[][] = new int[300][300];
 	
 	public static int minimumSquare(int m, int n) {
